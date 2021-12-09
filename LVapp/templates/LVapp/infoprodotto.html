@@ -1,0 +1,91 @@
+
+     {% extends 'LVapp/common.html' %}
+
+        {% block content %} 
+        
+        {% load static %}
+        
+
+         <!-- Carousell -->
+         <div class=" img-fluid my-2 ">
+        
+       <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+         
+         <div class="carousel-inner">
+           <div class="carousel-item active" data-bs-interval="3000">
+             <img src="{% static 'LVapp/1.png' %}" class="d-block w-50 mx-auto " style="max-width: 30% ; min-width: 350px;" alt="...">
+            
+           </div>
+           <div class="carousel-item " data-bs-interval="3000">
+             <img src="{% static 'LVapp/1a.png' %}" class="d-block  w-50 mx-auto " style="max-width: 30% ; min-width: 350px;" alt="...">
+             
+           </div>
+           <div class="carousel-item" data-bs-interval="3000">
+             <img src="{% static 'LVapp/1b.png' %}" class="d-block  w-50 mx-auto "style="max-width: 30% ; min-width: 350px; "  alt="...">
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+         <div class="container-fluid  "> 
+            <nav class="navbar navbar-light border-bottom bg-white">               
+               {% load static %}
+               <div class="   "><br>
+                     M59476<br>
+                  <h3> ALMA BB </h3>
+                  
+                  <b> 1600,0 €</b>
+               </div>          
+               <div class=" ms-auto  "> <img src="{% static 'LVapp/disponibile.png' %}" alt="" width="8" height="8" class="d-inline-block align-text  "> Disponibile</div>
+                      
+            </nav>
+                  
+            <br>
+      <p class="fst-italic">La borsa Alma BB, realizzata in tessuto Jacquard Since 1854, è impreziosita dal motivo intrecciato con fiori Monogram, 
+         iniziali LV e l'emblematica data. <br>La fantasia di ispirazione vintage è abbinata alle parti metalliche dorate e alle finiture 
+         in vacchetta nelle solari nuance écru e giallo.<br> L'iconico modello, elegante e compatto, è perfetto per contenere l'essenziale di ogni giorno.</p>         
+               
+               <br>
+         </div>
+     <div class="container-fluid "><button type="button" class="btn btn-outline-primary btn-lg  w-100 ">Acquista prodotto</button></div>    
+     
+
+     <br><br>
+     <p class="fw-bold mx-3"> Caratteristiche </p> 
+     <ul class="mx-3 ">
+      <li> 23.5 x 17.5 x 11.5 cm (Lunghezza x Altezza x Larghezza )</li>
+      <li >Tessuto Jacquard Since 1854</li>
+      <li >Colori: Écru e Giallo</li>
+      <li >Finiture in vacchetta</li>
+      <li >Fodera in microfibra</li>
+      <li >Parti metalliche dorate</li>
+      <li >Chiusura con zip a doppio cursore e lucchetto</li>
+      <li >Quattro piedini di appoggio sulla base</li>
+      <li >Portachiavi a clochette</li>
+      <li >Tasca piatta interna</li>
+      <li >Tracolla: Amovibile, non regolabile</li>            
+      <li >Tracolla Altezza (Luce): 56.0 cm</li>
+      <li >Manico: Semplice X2</li>
+      <li >L'articolo può essere prodotto in Francia, Spagna, Italia o negli Stati Uniti</li>
+    </ul>
+     <br>
+     <br>
+   </div>
+      
+      
+      
+      
+      
+      
+      
+        {% endblock %}
+
+        
+        
+ 
